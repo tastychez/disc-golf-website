@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && sed 's|./assets/|./dist/assets/|g' dist/index.html > index.html",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
